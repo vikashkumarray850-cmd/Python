@@ -615,3 +615,49 @@
 # Q10. Create a string "Python Programming" and check whether it ends with "Programming" using endswith().
 # name = "python programming"
 # print(name.endswith("programming"))
+
+#-----------------------------------------------------------------------------------------------------
+
+# Q1. Create a string "I love Python" and split it into separate words using split().
+# text = "I love Python" 
+# print(text.split())
+
+
+# Q2. Create a list ["Data", "Analyst"] and join the words with a space using join().
+# word = ["Data", "Analyst"]
+# print(" ".join(word))
+
+# Q3. Create a string "Python" and check whether it contains only alphabets using isalpha().
+# text = "Python"
+# print(text. isalpha())
+
+# Q4. Create a string "Python123" and check whether it contains only alphabets using isalpha().
+# text= "Python123"
+# print(text.isalpha())
+
+# Q5. Create a string "12345" and check whether it contains only digits using isdigit().
+# number="12345"
+# print(number. isdigit())
+
+# Q6. Create a string "Python123" and check whether it contains only alphabets and numbers using isalnum().
+# number="Python123"
+# print(number. isalnum())
+
+# Q7. Create a string "Python 123" and check whether it contains only alphabets and numbers using isalnum().
+# number="Python 123"
+# print(number. isalnum())
+
+# Q8. Create a string containing only spaces and check it using isspace().
+# text = "   "
+
+# print(text.isspace())
+
+# Q9. Create a list ["Python", "SQL", "Excel"] and join all elements using " - " as the separator.
+# languages = ["Python", "SQL", "Excel"]
+
+# print(" - ".join(languages))
+
+# Q10. Create a string "Data Analyst Python" and split it into separate words using split().
+# text = "Data Analyst Python"
+
+# print(text.split())
