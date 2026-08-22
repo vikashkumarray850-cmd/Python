@@ -1,2 +1,3 @@
-text=  "Programming"
-print(text.index("g"))
+text = ("Python", "SQL", "Excel")
+text[1] = "Power BI"
+print(text)
