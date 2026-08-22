@@ -617,6 +617,7 @@
 # print(name.endswith("programming"))
 
 #-----------------------------------------------------------------------------------------------------
+#🐍 String Methods — Part 2
 
 # Q1. Create a string "I love Python" and split it into separate words using split().
 # text = "I love Python" 
@@ -661,3 +662,43 @@
 # text = "Data Analyst Python"
 
 # print(text.split())
+
+#------------------------------------------------------------------------------------------------------------
+# 🐍 String Methods — Part 3
+
+# Q1. Create a string "Python" and find the index of "t" using index().
+# text=  "Python"
+# print(text.index("t"))
+
+# Q2. Create a string "Programming" and find the index of "g" using index().
+# text=  "Programming"
+# print(text.index("g"))
+
+# Q3. Create a string "banana" and find the last occurrence of "a" using rfind().
+# name = "banana"
+# print(name.rfind("a"))
+
+# Q4. Create a string "Programming" and find the last occurrence of "m" using rfind().
+# name = "Programming"
+# print(name.rfind("m"))
+
+# Q5. Create a string with spaces before "Python" and remove the left-side spaces using lstrip().
+# text = "   Python"
+
+# print(text.lstrip())
+
+# Q6. Create a string with spaces after "Python" and remove the right-side spaces using rstrip().
+# text = "Python   "
+
+# print(text.rstrip())
+
+# Q7. Create a string with spaces on both sides of "Data Analyst" and remove only the left-side spaces using lstrip().
+# text = "   Data Analyst   "
+
+# print(text.lstrip())
+
+# Q8. Create a string with spaces on both sides of "Data Analyst" and remove only the right-side spaces using rstrip().
+
+# text = "   Data Analyst   "
+
+# print(text.rstrip())

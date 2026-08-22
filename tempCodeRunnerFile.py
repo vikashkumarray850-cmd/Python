@@ -1,2 +1,2 @@
-number="Python123"
-print(number. isalnum())
+text=  "Programming"
+print(text.index("g"))
