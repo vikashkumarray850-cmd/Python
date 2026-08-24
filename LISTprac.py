@@ -167,3 +167,85 @@
 # Q8. Create a tuple containing your name, age, and city, then print your name using indexing.
 # data = ("vikash", "25", "kolkata")
 # print(data[0])
+#------------------------------------------------------------------------------------------------------------
+
+# ✅ Tuple Basics complete.
+
+# Ab Tuple ke important methods sirf 2 hain:
+
+# count()
+# index()
+
+# Phir 5–6 practice questions karke Tuples complete ✅ kar denge.
+
+# Q1. Create a tuple (10, 20, 10, 30, 10) and count how many times 10 appears.
+# number = (10, 20, 10, 30, 10)
+# print(number.count(10))
+
+# Q2. Create a tuple ("Apple", "Mango", "Banana") and find the index of "Banana".
+# fruits = ("Apple", "Mango", "Banana")
+# print(fruits.index("Banana"))
+
+# # Q3. Create a tuple ("Python", "SQL", "Python", "Excel") and count how many times "Python" appears.
+# text = ("Python", "SQL", "Python", "Excel")
+# print(text.count("Python"))
+
+# Q4. Create a tuple (5, 10, 15, 20, 25) and find the index of 20.
+# number = (5, 10, 15, 20, 25)
+# print(number.index(20))
+
+# Q5. Create a tuple ("Red", "Blue", "Green", "Blue") and count how many times "Blue" appears.
+# colour = ("Red", "Blue", "Green", "Blue")
+# print(colour.count("Blue"))
+
+# Q6. Create a tuple ("Python", "SQL", "Excel", "Power BI") and find the index of "Excel".
+# text = ("Python", "SQL", "Excel", "Power BI")
+# print(text.index("Excel"))
+#-------------------------------------------------------------------------------------------------------------
+
+# 🐍 SETS — BASIC PRACTICE
+# 📌 Topic: Set Creation, Duplicates, in, Empty Set & Indexing
+
+# Q1. SET CREATION
+# Create a set containing "Apple", "Mango", and "Banana" and print the set.
+# fruits = {"Apple", "Mango", "Banana"}
+# print(fruits)
+
+# Q2. DUPLICATES
+# Create a set containing duplicate numbers 10, 20, 10, 30, 20
+# and print the set.
+# number = {10, 20, 10, 30, 20}
+# print(number)
+
+# Q3. MEMBERSHIP CHECK — in
+# Create a set of 5 fruits and check whether "Mango" is present using in.
+# fruits = {"Apple", "Mango", "Banana"}
+# print("Mango" in fruits)
+
+# Q4. MEMBERSHIP CHECK — in
+# Create a set of numbers and check whether 100 is present using in.
+# number = {100, 3888, 373, 283}
+# print(100 in number)
+
+# Q5. EMPTY SET
+# Create an empty set correctly using set().
+# empty_set = set()
+# print(empty_set)
+
+
+# Q6. MEMBERSHIP CHECK — in
+# Create a set containing "Python", "SQL", and "Excel".
+# Check whether "Power BI" is present using in.
+# text = {"Python", "SQL", "Excel"}
+# print("Power BI" in text)
+
+# Q7. DUPLICATES
+# Create a set with duplicate values and observe how Python removes duplicates.
+# number = {100, 100, 400, 400, 600, 200, 200}
+# print(number)
+
+# Q8. INDEXING
+# Create a set of 5 numbers and try to access its first element using indexing.
+# Observe what happens.
+# number = { 5, 2, 8, 1, 9}
+# print(number[0])
