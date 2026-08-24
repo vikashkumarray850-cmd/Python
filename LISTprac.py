@@ -1,310 +1,311 @@
-📝 Practice — Lists Basics
-
-Q1. Create a list containing "Apple", "Mango", and "Banana" and print the list.
-fruits = ["Apple", "Mango", "Banana"]
-print(fruits)
-
-Q2. Create a list of 5 numbers and print the first number.
-numbers = [10, 20, 30, 40, 50]
-print(numbers[0])
-
-Q3. Create a list of 5 fruits and print the last fruit using negative indexing.
-fruits = ["mango", "orange", "banana", "coconut", "papaya"]
-print(fruits[-1])
-
-Q4. Create a list of 5 numbers and print the third number.
-number= [10, 20, 30 ,40 , 50]
-print(number[2])
-
-Q5. Create a list of 5 fruits and print the first 3 fruits using slicing.
-fruits = ["mango", "orange", "banana", "coconut", "papaya"]
-print(fruits[0:3])
-
-Q6. Create a list of 5 numbers and print the last 2 numbers using slicing.
-number= [10, 20, 30 ,40 , 50]
-print(number[-2:])
-
-Q7. Create a list ["Python", "SQL", "Excel"] and change "SQL" to "Power BI".
-text = ["Python", "SQL", "Excel"]
-text[1] = "Power BI"
-print(text)
-
-Q8. Create a list of 4 fruits and change the second fruit to "Orange".
-fruits = ["mango", "lichi", "banana", "coconut",]
-fruits[1] = "orange"
-print(fruits)
-
-Q9. Create a list containing your name, age, and city, then print the name using indexing.
-data = ["vikash", "25", "kolkata"]
-print(data[0])
-
-Q10. Create a list of 5 numbers and change the third number to 100.
-numbers = [200, 300, 300, 400, 500]
-numbers[2] = 100
-print(numbers)
-----------------------------------------------------------------------------------------------------------
-
-Q1. Create a list ["Apple", "Mango"] and add "Banana" at the end using append().
-fruits = ["Apple", "Mango"]
-fruits.append("Banana")
-print(fruits)
-
-Q2. Create a list ["Apple", "Banana"] and add "Mango" at index 1 using insert().
-fruits = ["Apple", "Mango"]
-fruits.insert(1, "Apple")
-print(fruits)
-
-Q3. Create a list ["Apple", "Mango"] and add ["Banana", "Orange"] using extend().
-fruits = ["Apple", "Mango"]
-fruits.extend(["Banana", "Orange"])
-print(fruits)
-
-Q4. Create a list ["Apple", "Mango", "Banana"] and remove "Mango" using remove().
-fruits = ["Apple", "Mango", "Banana"]
-fruits.remove("Mango")
-print(fruits)
-
-Q5. Create a list ["Apple", "Mango", "Banana"] and remove the second element using pop().
-fruits = ["Apple", "Mango", "Banana"]
-fruits.pop(1)
-print(fruits)
-
-Q6. Create a list ["Apple", "Mango", "Banana"] and remove the last element using pop().
-fruits = ["Apple", "Mango", "Banana"]
-fruits.pop(2)
-print(fruits)
-
-Q7. Create a list of 4 fruits and remove all elements using clear().
-fruits = ["mango", "orange", "banana", "coconut", "papaya"]
-fruits.clear()
-print(fruits)
-
-Q8. Create a list of 3 numbers and add another number at the end using append().
-number = [10, 20, 30]
-number. append(40)
-print(number)
-
-Q9. Create a list ["Python", "SQL"] and add ["Excel", "Power BI"] using extend().
-text = ["Python", "SQL"]
-text.extend(["Excel", "Power BI"])
-print(text)
-
-Q10. Create a list ["Python", "SQL", "Excel"] and remove "SQL" using remove().
-text = ["Python", "SQL", "Excel"]
-text.remove("SQL")
-print(text)
-
-Q1. Create a list [40, 10, 30, 20] and arrange it in ascending order using sort().
-number = [40, 10, 30, 20]
-number.sort()
-print(number)
-
-Q2. Create a list [5, 2, 8, 1, 9] and sort it using sort().
-number = [5, 2, 8, 1, 9]
-number.sort()
-print(number)
+# 📝 Practice — Lists Basics
+
+# Q1. Create a list containing "Apple", "Mango", and "Banana" and print the list.
+# fruits = ["Apple", "Mango", "Banana"]
+# print(fruits)
+
+# Q2. Create a list of 5 numbers and print the first number.
+# numbers = [10, 20, 30, 40, 50]
+# print(numbers[0])
+
+# Q3. Create a list of 5 fruits and print the last fruit using negative indexing.
+# fruits = ["mango", "orange", "banana", "coconut", "papaya"]
+# print(fruits[-1])
+
+# Q4. Create a list of 5 numbers and print the third number.
+# number= [10, 20, 30 ,40 , 50]
+# print(number[2])
+
+# Q5. Create a list of 5 fruits and print the first 3 fruits using slicing.
+# fruits = ["mango", "orange", "banana", "coconut", "papaya"]
+# print(fruits[0:3])
+
+# Q6. Create a list of 5 numbers and print the last 2 numbers using slicing.
+# number= [10, 20, 30 ,40 , 50]
+# print(number[-2:])
+
+# Q7. Create a list ["Python", "SQL", "Excel"] and change "SQL" to "Power BI".
+# text = ["Python", "SQL", "Excel"]
+# text[1] = "Power BI"
+# print(text)
+
+# Q8. Create a list of 4 fruits and change the second fruit to "Orange".
+# fruits = ["mango", "lichi", "banana", "coconut",]
+# fruits[1] = "orange"
+# print(fruits)
+
+# Q9. Create a list containing your name, age, and city, then print the name using indexing.
+# data = ["vikash", "25", "kolkata"]
+# print(data[0])
+
+# Q10. Create a list of 5 numbers and change the third number to 100.
+# numbers = [200, 300, 300, 400, 500]
+# numbers[2] = 100
+# print(numbers)
+# ----------------------------------------------------------------------------------------------------------
+
+# Q1. Create a list ["Apple", "Mango"] and add "Banana" at the end using append().
+# fruits = ["Apple", "Mango"]
+# fruits.append("Banana")
+# print(fruits)
+
+# Q2. Create a list ["Apple", "Banana"] and add "Mango" at index 1 using insert().
+# fruits = ["Apple", "Mango"]
+# fruits.insert(1, "Apple")
+# print(fruits)
+
+# Q3. Create a list ["Apple", "Mango"] and add ["Banana", "Orange"] using extend().
+# fruits = ["Apple", "Mango"]
+# fruits.extend(["Banana", "Orange"])
+# print(fruits)
+
+# Q4. Create a list ["Apple", "Mango", "Banana"] and remove "Mango" using remove().
+# fruits = ["Apple", "Mango", "Banana"]
+# fruits.remove("Mango")
+# print(fruits)
+
+# Q5. Create a list ["Apple", "Mango", "Banana"] and remove the second element using pop().
+# fruits = ["Apple", "Mango", "Banana"]
+# fruits.pop(1)
+# print(fruits)
+
+# Q6. Create a list ["Apple", "Mango", "Banana"] and remove the last element using pop().
+# fruits = ["Apple", "Mango", "Banana"]
+# fruits.pop(2)
+# print(fruits)
+
+# Q7. Create a list of 4 fruits and remove all elements using clear().
+# fruits = ["mango", "orange", "banana", "coconut", "papaya"]
+# fruits.clear()
+# print(fruits)
+
+# Q8. Create a list of 3 numbers and add another number at the end using append().
+# number = [10, 20, 30]
+# number. append(40)
+# print(number)
+
+# Q9. Create a list ["Python", "SQL"] and add ["Excel", "Power BI"] using extend().
+# text = ["Python", "SQL"]
+# text.extend(["Excel", "Power BI"])
+# print(text)
+
+# Q10. Create a list ["Python", "SQL", "Excel"] and remove "SQL" using remove().
+# text = ["Python", "SQL", "Excel"]
+# text.remove("SQL")
+# print(text)
+
+# Q1. Create a list [40, 10, 30, 20] and arrange it in ascending order using sort().
+# number = [40, 10, 30, 20]
+# number.sort()
+# print(number)
+
+# Q2. Create a list [5, 2, 8, 1, 9] and sort it using sort().
+# number = [5, 2, 8, 1, 9]
+# number.sort()
+# print(number)
 
-Q3. Create a list [10, 20, 30, 40] and reverse its order using reverse().
-number = [10, 20, 30, 40]
-number.reverse()
-print(number)
+# Q3. Create a list [10, 20, 30, 40] and reverse its order using reverse().
+# number = [10, 20, 30, 40]
+# number.reverse()
+# print(number)
 
-Q4. Create a list ["Apple", "Mango", "Banana"] and find the index of "Banana" using index().
-fruit = ["Apple", "Mango", "Banana"]
-print(fruit.index("Banana"))
+# Q4. Create a list ["Apple", "Mango", "Banana"] and find the index of "Banana" using index().
+# fruit = ["Apple", "Mango", "Banana"]
+# print(fruit.index("Banana"))
 
-Q5. Create a list ["Python", "SQL", "Excel"] and find the index of "SQL" using index().
-text = ["Python", "SQL", "Excel"]
-print(text.index("SQL"))
-
-Q6. Create a list [10, 20, 10, 30, 10] and count how many times 10 appears using count().
-number = [10, 20, 10, 30, 10]
-print(number.count(10))
-
-Q7. Create a list ["Apple", "Mango", "Apple", "Banana", "Apple"] and count how many times "Apple" appears.
-fruits = ["Apple", "Mango", "Apple", "Banana", "Apple"]
-print(fruits.count("Apple"))
-
-Q8. Create a list [50, 20, 40, 10, 30], sort it first and then reverse it.
-number = [50, 20, 40, 10, 30]
-number.sort()
-number.reverse()
-print(number)
-----------------------------------------------------------------------------------------------------------
-
-🐍 Tuples — Part 1: Basics
+# Q5. Create a list ["Python", "SQL", "Excel"] and find the index of "SQL" using index().
+# text = ["Python", "SQL", "Excel"]
+# print(text.index("SQL"))
+
+# Q6. Create a list [10, 20, 10, 30, 10] and count how many times 10 appears using count().
+# number = [10, 20, 10, 30, 10]
+# print(number.count(10))
+
+# Q7. Create a list ["Apple", "Mango", "Apple", "Banana", "Apple"] and count how many times "Apple" appears.
+# fruits = ["Apple", "Mango", "Apple", "Banana", "Apple"]
+# print(fruits.count("Apple"))
+
+# Q8. Create a list [50, 20, 40, 10, 30], sort it first and then reverse it.
+# number = [50, 20, 40, 10, 30]
+# number.sort()
+# number.reverse()
+# print(number)
+# ----------------------------------------------------------------------------------------------------------
+
+# 🐍 Tuples — Part 1: Basics
 
-Q1. Create a tuple containing "Apple", "Mango", and "Banana" and print the tuple.
-fruits = ("Apple", "Mango", "Banana")
-print(fruits)
-
-Q2. Create a tuple of 5 numbers and print the first number.
-number = (1, 2, 3, 4, 5)
-print(number[0])
-
-Q3. Create a tuple of 5 fruits and print the last fruit using negative indexing.
-fruits = ["mango", "orange", "banana", "coconut", "papaya"]
-print(fruits[-1])
-
-Q4. Create a tuple of 5 numbers and print the third number.
-fruits = (10, 20, 30, 40, 50)
-print(fruits[2])
-
-Q5. Create a tuple of 5 fruits and print the first 3 fruits using slicing.
-fruits = ["mango", "orange", "banana", "coconut", "papaya"]
-print(fruits[0:3])
-
-Q6. Create a tuple of 5 numbers and print the last 2 numbers using slicing.
-numbers = (10, 20, 30, 40, 50)
-print(numbers[-2:])
-
-Q7. Create a tuple ("Python", "SQL", "Excel") and try to change "SQL" to "Power BI".
-Observe what happens.
-text = ("Python", "SQL", "Excel")
-text[1] = "Power BI"
-print(text)
-
-Q8. Create a tuple containing your name, age, and city, then print your name using indexing.
-data = ("vikash", "25", "kolkata")
-print(data[0])
-------------------------------------------------------------------------------------------------------------
-
-✅ Tuple Basics complete.
-
-Ab Tuple ke important methods sirf 2 hain:
-
-count()
-index()
-
-Phir 5–6 practice questions karke Tuples complete ✅ kar denge.
-
-Q1. Create a tuple (10, 20, 10, 30, 10) and count how many times 10 appears.
-number = (10, 20, 10, 30, 10)
-print(number.count(10))
-
-Q2. Create a tuple ("Apple", "Mango", "Banana") and find the index of "Banana".
-fruits = ("Apple", "Mango", "Banana")
-print(fruits.index("Banana"))
-
-# Q3. Create a tuple ("Python", "SQL", "Python", "Excel") and count how many times "Python" appears.
-text = ("Python", "SQL", "Python", "Excel")
-print(text.count("Python"))
-
-Q4. Create a tuple (5, 10, 15, 20, 25) and find the index of 20.
-number = (5, 10, 15, 20, 25)
-print(number.index(20))
-
-Q5. Create a tuple ("Red", "Blue", "Green", "Blue") and count how many times "Blue" appears.
-colour = ("Red", "Blue", "Green", "Blue")
-print(colour.count("Blue"))
-
-Q6. Create a tuple ("Python", "SQL", "Excel", "Power BI") and find the index of "Excel".
-text = ("Python", "SQL", "Excel", "Power BI")
-print(text.index("Excel"))
--------------------------------------------------------------------------------------------------------------
-
-🐍 SETS — BASIC PRACTICE
-📌 Topic: Set Creation, Duplicates, in, Empty Set & Indexing
-
-Q1. SET CREATION
-Create a set containing "Apple", "Mango", and "Banana" and print the set.
-fruits = {"Apple", "Mango", "Banana"}
-print(fruits)
-
-Q2. DUPLICATES
-Create a set containing duplicate numbers 10, 20, 10, 30, 20
-and print the set.
-number = {10, 20, 10, 30, 20}
-print(number)
-
-Q3. MEMBERSHIP CHECK — in
-Create a set of 5 fruits and check whether "Mango" is present using in.
-fruits = {"Apple", "Mango", "Banana"}
-print("Mango" in fruits)
-
-Q4. MEMBERSHIP CHECK — in
-Create a set of numbers and check whether 100 is present using in.
-number = {100, 3888, 373, 283}
-print(100 in number)
-
-Q5. EMPTY SET
-Create an empty set correctly using set().
-empty_set = set()
-print(empty_set)
-
-
-Q6. MEMBERSHIP CHECK — in
-Create a set containing "Python", "SQL", and "Excel".
-Check whether "Power BI" is present using in.
-text = {"Python", "SQL", "Excel"}
-print("Power BI" in text)
-
-Q7. DUPLICATES
-Create a set with duplicate values and observe how Python removes duplicates.
-number = {100, 100, 400, 400, 600, 200, 200}
-print(number)
-
-Q8. INDEXING
-Create a set of 5 numbers and try to access its first element using indexing.
-Observe what happens.
-number = { 5, 2, 8, 1, 9}
-print(number[0])
------------------------------------------------------------------------------------------------------------
-
-🐍 SETS — METHODS PRACTICE
-📌 Topic: add(), update(), remove(), discard(), pop(), clear()
-
-Q1. ADD
-Create a set {"Apple", "Mango"} and add "Banana" using add().
-fruit = {"Apple", "Mango"}
-fruit.add("Banana")
-print(fruit)
-
-Q2. UPDATE
-Create a set {"Python", "SQL"} and add "Excel" and "Power BI" using update().
-text = {"Python", "SQL"}
-text.update(["Excel", "Power BI"])
-print(text)
-
-Q3. REMOVE
-Create a set {"Apple", "Mango", "Banana"} and remove "Mango" using remove().
-fruits = {"Apple", "Mango", "Banana"}
-fruits.remove("Mango")
-print(fruits)
-
-Q4. DISCARD
-Create a set {"Apple", "Mango", "Banana"} and remove "Orange" using discard().
-Observe what happens.
-fruits = {"Apple", "Mango", "Banana"}
-fruits.discard("Orange")
-print(fruits)
-
-Q5. POP
-Create a set of 4 fruits and remove one element using pop().
-Observe which element gets removed.
-fruits = {"Apple", "Mango", "Banana", "Orange"}
-fruits.pop()
-print(fruits)
-
-Q6. CLEAR
-Create a set {"Python", "SQL", "Excel"} and remove all elements using clear()
-Tool = {"Python", "SQL", "Excel"}
-Tool.clear()
-print(Tool)
-
-Q7. ADD + UPDATE
-Create a set {10, 20, 30}.
-Add 40 using add().
-Then add 50 and 60 using update().
-number = {10, 20, 30}
-number.add(40)
-print(number)
-number.update([50,60])
-print(number)
-
-Q8. DISCARD
-Create a set {"Python", "SQL", "Excel"} and remove "SQL" using discard().
-text = {"Python", "SQL", "Excel"}
-text.discard("SQL")
-print(text)
+# Q1. Create a tuple containing "Apple", "Mango", and "Banana" and print the tuple.
+# fruits = ("Apple", "Mango", "Banana")
+# print(fruits)
+
+# Q2. Create a tuple of 5 numbers and print the first number.
+# number = (1, 2, 3, 4, 5)
+# print(number[0])
+
+# Q3. Create a tuple of 5 fruits and print the last fruit using negative indexing.
+# fruits = ["mango", "orange", "banana", "coconut", "papaya"]
+# print(fruits[-1])
+
+# Q4. Create a tuple of 5 numbers and print the third number.
+# fruits = (10, 20, 30, 40, 50)
+# print(fruits[2])
+
+# Q5. Create a tuple of 5 fruits and print the first 3 fruits using slicing.
+# fruits = ["mango", "orange", "banana", "coconut", "papaya"]
+# print(fruits[0:3])
+
+# Q6. Create a tuple of 5 numbers and print the last 2 numbers using slicing.
+# numbers = (10, 20, 30, 40, 50)
+# print(numbers[-2:])
+
+# Q7. Create a tuple ("Python", "SQL", "Excel") and try to change "SQL" to "Power BI".
+# Observe what happens.
+# text = ("Python", "SQL", "Excel")
+# text[1] = "Power BI"
+# print(text)
+
+# Q8. Create a tuple containing your name, age, and city, then print your name using indexing.
+# data = ("vikash", "25", "kolkata")
+# print(data[0])
+# ------------------------------------------------------------------------------------------------------------
+
+# ✅ Tuple Basics complete.
+
+# Ab Tuple ke important methods sirf 2 hain:
+
+# count()
+# index()
+
+# Phir 5–6 practice questions karke Tuples complete ✅ kar denge.
+
+# Q1. Create a tuple (10, 20, 10, 30, 10) and count how many times 10 appears.
+# number = (10, 20, 10, 30, 10)
+# print(number.count(10))
+
+# Q2. Create a tuple ("Apple", "Mango", "Banana") and find the index of "Banana".
+# fruits = ("Apple", "Mango", "Banana")
+# print(fruits.index("Banana"))
+
+# # Q3. Create a tuple ("Python", "SQL", "Python", "Excel") and count how many times "Python" appears.
+# text = ("Python", "SQL", "Python", "Excel")
+# print(text.count("Python"))
+
+# Q4. Create a tuple (5, 10, 15, 20, 25) and find the index of 20.
+# number = (5, 10, 15, 20, 25)
+# print(number.index(20))
+
+# Q5. Create a tuple ("Red", "Blue", "Green", "Blue") and count how many times "Blue" appears.
+# colour = ("Red", "Blue", "Green", "Blue")
+# print(colour.count("Blue"))
+
+# Q6. Create a tuple ("Python", "SQL", "Excel", "Power BI") and find the index of "Excel".
+# text = ("Python", "SQL", "Excel", "Power BI")
+# print(text.index("Excel"))
+# -------------------------------------------------------------------------------------------------------------
+
+# 🐍 SETS — BASIC PRACTICE
+# 📌 Topic: Set Creation, Duplicates, in, Empty Set & Indexing
+
+# Q1. SET CREATION
+# Create a set containing "Apple", "Mango", and "Banana" and print the set.
+# fruits = {"Apple", "Mango", "Banana"}
+# print(fruits)
+
+# Q2. DUPLICATES
+# Create a set containing duplicate numbers 10, 20, 10, 30, 20
+# and print the set.
+# number = {10, 20, 10, 30, 20}
+# print(number)
+
+# Q3. MEMBERSHIP CHECK — in
+# Create a set of 5 fruits and check whether "Mango" is present using in.
+# fruits = {"Apple", "Mango", "Banana"}
+# print("Mango" in fruits)
+
+# Q4. MEMBERSHIP CHECK — in
+# Create a set of numbers and check whether 100 is present using in.
+# number = {100, 3888, 373, 283}
+# print(100 in number)
+
+# Q5. EMPTY SET
+# Create an empty set correctly using set().
+# empty_set = set()
+# print(empty_set)
+
+
+# Q6. MEMBERSHIP CHECK — in
+# Create a set containing "Python", "SQL", and "Excel".
+# Check whether "Power BI" is present using in.
+# text = {"Python", "SQL", "Excel"}
+# print("Power BI" in text)
+
+# Q7. DUPLICATES
+# Create a set with duplicate values and observe how Python removes duplicates.
+# number = {100, 100, 400, 400, 600, 200, 200}
+# print(number)
+
+# Q8. INDEXING
+# Create a set of 5 numbers and try to access its first element using indexing.
+# Observe what happens.
+# number = { 5, 2, 8, 1, 9}
+# print(number[0])
+# -----------------------------------------------------------------------------------------------------------
+
+# 🐍 SETS — METHODS PRACTICE
+# 📌 Topic: add(), update(), remove(), discard(), pop(), clear()
+
+# Q1. ADD
+# Create a set {"Apple", "Mango"} and add "Banana" using add().
+# fruit = {"Apple", "Mango"}
+# fruit.add("Banana")
+# print(fruit)
+
+# Q2. UPDATE
+# Create a set {"Python", "SQL"} and add "Excel" and "Power BI" using update().
+# text = {"Python", "SQL"}
+# text.update(["Excel", "Power BI"])
+# print(text)
+
+# Q3. REMOVE
+# Create a set {"Apple", "Mango", "Banana"} and remove "Mango" using remove().
+# fruits = {"Apple", "Mango", "Banana"}
+# fruits.remove("Mango")
+# print(fruits)
+
+# Q4. DISCARD
+# Create a set {"Apple", "Mango", "Banana"} and remove "Orange" using discard().
+# Observe what happens.
+# fruits = {"Apple", "Mango", "Banana"}
+# fruits.discard("Orange")
+# print(fruits)
+
+# Q5. POP
+# Create a set of 4 fruits and remove one element using pop().
+# Observe which element gets removed.
+# fruits = {"Apple", "Mango", "Banana", "Orange"}
+# fruits.pop()
+# print(fruits)
+
+# Q6. CLEAR
+# Create a set {"Python", "SQL", "Excel"} and remove all elements using clear()
+# Tool = {"Python", "SQL", "Excel"}
+# Tool.clear()
+# print(Tool)
+
+# Q7. ADD + UPDATE
+# Create a set {10, 20, 30}.
+# Add 40 using add().
+# Then add 50 and 60 using update().
+# number = {10, 20, 30}
+# number.add(40)
+# print(number)
+# number.update([50,60])
+# print(number)
+
+# Q8. DISCARD
+# Create a set {"Python", "SQL", "Excel"} and remove "SQL" using discard().
+# text = {"Python", "SQL", "Excel"}
+# text.discard("SQL")
+# print(text)
+
 
