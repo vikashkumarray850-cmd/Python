@@ -1,3 +1,3 @@
-text = ("Python", "SQL", "Excel")
-text[1] = "Power BI"
-print(text)
+A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+# print(A.difference(B))
