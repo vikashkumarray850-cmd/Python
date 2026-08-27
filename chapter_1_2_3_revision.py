@@ -48,3 +48,11 @@ print("Modulus =", a % b)
 # >, <, ==, !=, >=, <=
 # Logical:
 # and, or, not
+
+
+# string
+
+# list
+# tuples
+# dict
+# sets
