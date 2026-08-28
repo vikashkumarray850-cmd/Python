@@ -1,10 +1,13 @@
 # DLS Target Calculator
 
+#Pakistan
 first_team_score = 250
 first_team_overs = 50
 
-second_team_overs = 40
-resources_lost = 20
+#India
+#Rain Coming
+second_team_overs = 20
+resources_lost = 30
 
 # Simple resource percentage
 resources_available = 100 - resources_lost
