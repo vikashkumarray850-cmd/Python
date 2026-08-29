@@ -44,9 +44,9 @@
 # lambda
 # recursion
 # list
-# -----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 
-# 🐍 Functions — Basic Practice
+#🐍 Functions — Basic Practice
 
 # Q1.
 # Create a function named greet().
@@ -77,9 +77,9 @@
 # def show_name():
 #     print("VIKASH")
 # show_name()
-# --------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
 
-# 🐍 FUNCTIONS — PARAMETERS PRACTICE
+#🐍 FUNCTIONS — PARAMETERS PRACTICE
 
 # # Q1. Create a function greet that takes a name as a parameter.
 # Print a greeting using the name and call the function.
@@ -103,9 +103,9 @@
 #     print(city)
 
 # introduce("vikash", "kolkata")
-# ------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
 
-# 🐍 FUNCTIONS — ARGUMENTS
+#🐍 FUNCTIONS — ARGUMENTS
 # Q1. Create a function that takes two numbers as parameters.
 # Call the function by passing two numbers as arguments.
 
@@ -129,7 +129,7 @@
 #     print(a,b,c)
 # show_values(10,20,30)
 
-# --------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
 
 # Q11. Create a function that prints your name, age and city.
 # Call the function.
@@ -193,9 +193,9 @@
 #     for i in range(1,11):
 #         print(i)
 # table()
-# -------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------
 
-# 🐍 FUNCTIONS — MULTIPLE PARAMETERS PRACTICE
+#🐍 FUNCTIONS — MULTIPLE PARAMETERS PRACTICE
 
 # Q1. Create a function that takes two numbers as parameters.
 # Print both numbers and call the function.
@@ -273,7 +273,7 @@
 #     print(y)
 #     print(z)
 # values("vikash", "kolkata", "teacher")
-# ---------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------
 
 # 🐍 FUNCTIONS — PARAMETERS + CALCULATION
 # Q1. Create a function that takes two numbers as parameters.
@@ -343,7 +343,7 @@
 #     print(a ** 2)
 #     print(b ** 2)
 # square(10,20)
-# -----------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------
 
 # ==========================================
 # 🐍PYTHON FUNCTIONS — RETURN STATEMENT
@@ -387,7 +387,7 @@
 #     return "Hello " +  name
 # result = greet ("vikash")
 # print(result)
-# ------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
 
 # ==========================================
 # 🐍Python Functions — Return + Calculation
@@ -478,7 +478,7 @@
 # result = largest_number(10, 30, 50)
 
 # print(result)
-# ---------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------
 
 # ==========================================
 # Python Functions — Default Parameters
@@ -523,312 +523,3 @@
 #     print(a * b)
 
 # multiply(5)
-# ----------------------------------------------------------------------------------------------------
-
-# ==========================================
-# Python Functions — *args Basic Practice
-# ==========================================
-
-
-# Q1. Create a function that accepts any number of values.
-# Print all the values.
-# def show(*values):
-#     print(values)
-
-# show(1,1,1,1,1,11,1,)
-
-# Q2. Create a function that accepts any number of names.
-# Print all the names.
-# Q2. Create a function that accepts any number of names.
-# Print all the names.
-
-# def show_names(*names):
-#     print(names)
-
-# show_names("Vikash", "Rohan", "Amit", "Rahul")
-
-# Q3. Create a function that accepts any number of numbers.
-# Print all the numbers.
-
-# def show_numbers(*number):
-#     print(number)
-
-# show_numbers(109,26,72,829,729,62729,55)
-
-# Q4. Create a function that accepts any number of values.
-# Call the function with 5 values.
-# def show_number(*values):
-#     print(values)
-# show_number(10,20,30,40,50)
-
-# Q5. Create a function that accepts any number of numbers.
-# Call the function with 6 numbers.
-# def show_number(*values):
-#     print(values)
-# show_number(10,20,30,40,50,60)
-
-# Q6. Create a function that accepts any number of values.
-# Call the function with different types of values.
-# def show_number(*values):
-#     print(values)
-# show_number(10,20,30,40,50)
-
-
-# Q7. Create a function that accepts any number of names.
-# Call the function with 4 names.
-# def show_names(*names):
-#     print(names)
-
-# show_names("Vikash", "Rohan", "Amit", "Rahul")
-
-# Q8. Create a function that accepts any number of numbers.
-# Call the function with 8 numbers.
-# def show_number(*values):
-#     print(values)
-# show_number(10,20,30,40,50,36,36,28)
-# -------------------------------------------------------------------------------------
-
-# ==========================================
-# 🐍 Python Functions — *args + Indexing
-# ==========================================
-
-# Q1. Create a function using *args.
-# Print the first value.
-# Call the function with three values.
-# def show_values(*values):
-#     print(values[0])
-
-# show_values(10,20,30)
-
-# Q2. Create a function using *args.
-# Print the second value.
-# Call the function with three values.
-# def show_values(*args):
-#     print(args[1])
-# show_values(10,20,30)
-
-# Q3. Create a function using *args.
-# Print the third value.
-# Call the function with four values.
-# def show_values(*args):
-#     print(args[2])
-# show_values(10,20,30,40)
-
-# Q4. Create a function using *args.
-# Print the first and second values.
-# Call the function with four values.
-# def show_values(*args):
-#     print(args[0:2])
-# show_values(10,20,30,40)
-
-# Q5. Create a function using *args.
-# Print the last value.
-# Call the function with four values.
-# def show_values(*args):
-#     print(args[-1])
-# show_values(10,20,30,40)
-
-# Q6. Create a function using *args.
-# Print the second-last value.
-# Call the function with four values.
-# def show_values(*args):
-#     print(args[-2])
-# show_values(10,20,30,40)
-
-# Q7. Create a function using *args.
-# Print the first and last values.
-# Call the function with five values.
-# def show_values(*args):
-#     print(args[0])
-#     print(args[-1])
-# show_values(10,20,30,40,50)
-
-# Q8. Create a function using *args.
-# Print the first three values.
-# Call the function with five values.
-
-# def show_values(*args):
-#     print(args[0:3])
-# show_values(10,20,30,40,50)
-# ------------------------------------------------------------------------------------------
-
-# ==========================================
-# Python Functions — *args + Loop
-# ==========================================
-
-
-# Q1. Create a function using *args.
-# Print each value one by one.
-# Call the function with five values.
-# def show(*args):
-#     for value in args:
-#         print(value)
-# show(10,20,30,40,50)
-
-# Q2. Create a function using *args.
-# Print each number one by one.
-# Call the function with four numbers.
-
-# def show_number(*args):
-#     for x in args:
-#         print(x)
-# show_number(10,20,30,40)
-
-# Q3. Create a function using *args.
-# Print each name one by one.
-# Call the function with four names.
-# def show_names(*values):
-#     for x in values:
-#         print(x)
-# show_names("Vikash","Rohit","Arun","Vajinder")
-
-# Q4. Create a function using *args.
-# Print each value one by one.
-# Call the function with six values.
-# def show(*args):
-#     for value in args:
-#         print(value)
-# show(10,20,30,40,50,60)
-# ------------------------------------------------------------------------------------
-
-# ==========================================
-# Python Functions — *args + Calculation
-# ==========================================
-
-
-# Q1. Create a function using *args.
-# Calculate the sum of all numbers.
-# Call the function with three numbers.
-
-# result = 0
-# def sum(*args):
-#     result = 0
-    
-#     for x in args:
-#        result = result + x
-
-#     print(result)
-
-# sum(10,20,30)
-
-# Q2. Create a function using *args.
-# Calculate the sum of all numbers.
-# Call the function with five numbers.
-
-# def sum(*values):
-#     result=0
-
-#     for number in values:
-#         result = result + number
-
-#     print(result)
-
-# sum(10,20,30,40,50)
-
-
-# Q3. Create a function using *args.
-# Calculate the total of all numbers.
-# Call the function with six numbers.
-# def total(*value):
-#     result = 0
-
-#     for number in value:
-#         result = result + number
-
-#     print(result)
-
-# total(10,20,30,40,50,50)
-
-# Q4. Create a function using *args.
-# Calculate the sum of all numbers and print the result.
-# Call the function with four numbers.
-# def sum(*values):
-#     result=0
-
-#     for number in values:
-#         result = result + number
-
-#     print(result)
-
-# sum(10,20,30,40)
-
-# Q5. Create a function using *args.
-# Calculate the sum of all numbers and return the result.
-# Call the function with five numbers.
-
-# def sum(*values):
-#     result=0
-
-#     for number in values:
-#         result = result + number
-
-#     return result
-
-# answer = sum(10,20,30,40,50)
-
-# print(answer)
-# ----------------------------------------------------------------------------------
-
-# ==========================================
-# Python Functions — *args + Average
-# ==========================================
-
-
-# Q1. Create a function using *args.
-# Calculate and print the average of three numbers.
-
-# def average(*values):
-#     result = 0
-
-#     for number in values:
-#         result = result + number
-
-#     return result / len(values)
-    
-# answer = average(10,20,30)
-
-# print(answer)
-
-
-# Q2. Create a function using *args.
-# Calculate and print the average of five numbers.
-# def average(*args):
-#     result = 0
-
-#     for x in args:
-#         result = result + x
-
-#     return result / len(args)
-
-# answer = average(10,20,30,40,50)
-
-# print(answer)
-
-
-# Q3. Create a function using *args.
-# Calculate and return the average of four numbers.
-
-# def average(*args):
-#     result = 0
-
-#     for number in args:
-#         result = result + number
-
-#     return result / len(args)
-# answer = average(10,20,30,40)
-
-# print(answer)
-
-# Q4. Create a function using *args.
-# Calculate and return the average of six numbers.
-
-# def average(*value):
-#     result = 0
-
-#     for number in value:
-#         result = result + number
-
-#     return result / len(value)
-
-# answer = average(10,20,30,30,20,10)
-# print(answer)
