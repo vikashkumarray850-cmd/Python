@@ -832,3 +832,190 @@
 
 # answer = average(10,20,30,30,20,10)
 # print(answer)
+
+#-------------------------------------------------------------------------------------------
+
+# ==========================================
+# 🐍Python Functions — **kwargs Basic
+# ==========================================
+
+
+# Q1. Create a function using **kwargs.
+# Print all the details.
+# Call the function with name and age.
+# def details(**kwargs):
+#     print(kwargs)
+
+# details(name="vikash", age=25)
+
+# Q2. Create a function using **kwargs.
+# Print all the details.
+# Call the function with name, city and age.
+# def details(**info):
+#     print(info)
+
+# details(name = "RAJDIP", city = "KOLKATA", age = 24)
+
+# Q3. Create a function using **kwargs.
+# Print all the details.
+# Call the function with three different details.
+
+# def details(**info):
+#     print(info)
+
+# details(name = "RAJDIP", city = "KOLKATA", age = 24)
+
+
+# Q4. Create a function using **kwargs.
+# Print all the details.
+# Call the function with four different details.
+
+# def details(**info):
+#     print(info)
+
+# details(name = "VIKASH", city = "KOLKATA", age = 25, job = "DATA ANALYST")
+#---------------------------------------------------------------------------------------
+
+# ==========================================
+# 🐍Python Functions — **kwargs + Key Access
+# ==========================================
+
+
+# Q1. Create a function using **kwargs.
+# Print the value of "name".
+# Call the function with name and age.
+
+# def values(**info):
+#     print(info["name"])
+
+# values(name = "vikash", age = 25)
+
+# Q2. Create a function using **kwargs.
+# Print the value of "city".
+# Call the function with name, city and age.
+# def value(**kwargs):
+#     print(kwargs["city"])
+
+# value(name ="vikash", city= "kolkata", age= 25)
+
+# Q3. Create a function using **kwargs.
+# Print the value of "age".
+# Call the function with name, age and job.
+# def details(**info):
+#     print(info["age"])
+
+# details(name = "VIKASH",  age = 25, job = "DATA ANALYST")
+
+# Q4. Create a function using **kwargs.
+# Print the value of "job".
+# Call the function with name, city, age and job.
+# def details(**info):
+#     print(info["job"])
+
+# details(name = "VIKASH", city = "KOLKATA", age = 25, job = "DATA ANALYST")
+#------------------------------------------------------------------------------------------------------
+
+# ==========================================
+# 🐍Python Functions — **kwargs + Loop
+# ==========================================
+
+
+# Q1. Create a function using **kwargs.
+# Print each key and value one by one.
+# Call the function with name, age and city.
+# def detail(**info):
+#     for key, value in info.items():
+#         print(key,value)
+# detail(name ="vikash", age = 25, city = "kolkata")
+
+# Q2. Create a function using **kwargs.
+# Print each key and value one by one.
+# Call the function with name, age, city and job.
+# def detail(**info):
+#     for key, value in info.items():
+#         print(key, value)
+
+# detail(name="mohi", age=19, city="delhi", job="DATA ANALYST")
+
+# Q3. Create a function using **kwargs.
+# Print each key and value one by one.
+# Call the function with three details.
+# def values(**kwargs):
+#     for key, value in kwargs.items():
+#         print(key, value)
+
+# values(name ="mohit", age = 19, city = "delhi")
+
+# Q4. Create a function using **kwargs.
+# Print each key and value one by one.
+# Call the function with four details.
+
+# def details(**kwargs):
+#     for key, values in kwargs.items():
+#         print(key, values)
+
+# details(name ="mohi", age = 19, city = "delhi", job = "DATA ANALYST")
+#------------------------------------------------------------------------------------------------
+
+# ==========================================
+# Python Functions — **kwargs + Conditions
+# ==========================================
+
+
+# Q1. Create a function using **kwargs.
+# Check if "city" key is present.
+# If present, print "City Available".
+# Call the function with name, age and city.
+
+# def detail(**kwargs):
+#     if "city" in kwargs:
+#         print("City Available")
+
+# detail(name = "vikash", age = 25, city = "kokkata")
+
+# Q2. Create a function using **kwargs.
+# Check if "age" key is present.
+# If age is 18 or more, print "Adult".
+# Call the function with name and age.
+# def values(**info):
+
+#     if "age" in info:
+#         if info["age"] >= 18:
+#             print("Adult")
+            
+# values(name = "vikash", age = 25)
+
+# Q3. Create a function using **kwargs.
+# Check if "salary" key is present.
+# If salary is 30000 or more, print "Good Salary".
+# Call the function with name and salary.
+# def details(**info):
+
+#     if "salary" in info:
+#         if info["salary"] >= 30000:
+#             print("Good Salary")
+
+# details(Name = "raj", salary = 35000)
+
+# Q4. Create a function using **kwargs.
+# Check if "marks" key is present.
+# If marks are 50 or more, print "Pass".
+# Call the function with name and marks.
+
+# def value(**info):
+#     if "marks" in info:
+#         if info["marks"] >= 50:
+#             print("Pass")
+
+# value(Name = "raj", marks = 50 )
+
+# Q5. Create a function using **kwargs.
+# Check if "name" key is present.
+# If present, print the name.
+# Call the function with name, age and city.
+
+# def value(**info):
+#     if "name" in info:
+#             print(info["name"])
+
+# value(name = "raj", age = 19, city = "delhi" )

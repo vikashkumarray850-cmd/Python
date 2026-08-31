@@ -1,3 +1,23 @@
+# name = 'vikas' # str
+name = input("Enter your name: ")
+email = "vikas@gmail.com" # str
+age = 6 # int
+marks = 67.8 # float
+is_married = True
+bro = None
+
+print(type(name))
+print(type(email))
+print(type(age))
+print(type(marks))
+print(type(is_married))
+print(type(bro))
+
+
+
+
+
+
 # Chapter 1: Variables
 name = "Vikash"
 age = 25
@@ -17,7 +37,7 @@ print(name)
 print(age)
 print(salary)
 print(is_student)
-
+print(salary)
 # Chapter 3: Operators
 a = 20
 b = 10
@@ -56,3 +76,4 @@ print("Modulus =", a % b)
 # tuples
 # dict
 # sets
+
