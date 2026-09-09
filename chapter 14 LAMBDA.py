@@ -273,4 +273,4 @@
 # salary = [38800, 20000, 15000]
 
 # result = reduce(lambda a , b: a + b, salary )
-# print(result)
+# print(result) 
