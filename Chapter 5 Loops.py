@@ -657,19 +657,19 @@
 # Input: 121
 # Output: Palindrome
 
-# num = int(input("enter your number:"))
-# original = num
-# reverse = 0
+num = int(input("enter your number:"))
+original = num
+reverse = 0
 
-# while num > 0:
-#     digit = num % 10
-#     reverse = reverse * 10 + digit
-#     num = num // 10
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
 
-# if original == reverse:
-#     print("Palindrome")
-# else :
-#     ("Not Palindrome")
+if original == reverse:
+    print("Palindrome")
+else :
+    ("Not Palindrome")
 #--------------------------------------------------------------------------
 
 # Q5.
