@@ -350,3 +350,213 @@
 # numbers = {i: i * 2 for i in range(1, 6)}
 
 # print(numbers)
+
+#------------------------------------------------------------------------------
+
+# ==========================================
+# Python Comprehensions — Dictionary Comprehension + if
+# ==========================================
+
+
+# Example:
+
+# numbers = {i: i * i for i in range(1, 11) if i % 2 == 0}
+
+# print(numbers)
+
+# Output:
+
+# {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+
+# Yahan if ka kaam sirf even numbers ko dictionary mein lena hai.
+
+# Agar ye clear hai, to ab Dictionary Comprehension + if ke 3 questions karte hain.
+
+#=======================================
+# QUESTION STARTED NOW
+#=======================================
+
+# Q1.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# Include only even numbers.
+# Store the square of each key as its value.
+# Use dictionary comprehension with if.
+# Print the dictionary.
+
+# numbers = {i: i ** 2 for i in range(1, 11) if i % 2 == 0}
+
+# print(numbers)
+
+# Q2.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# Include only numbers greater than 5.
+# Store double the key as its value.
+# Use dictionary comprehension with if.
+# Print the dictionary.
+
+# numbers ={i: i * 2 for i in range(1, 11) if i > 5}
+
+# print(numbers)
+
+
+# Q3.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# Include only numbers divisible by 3.
+# Store the cube of each key as its value.
+# Use dictionary comprehension with if.
+# Print the dictionary.
+
+# cubes = {i: i ** 3 for i in range(1,11) if i % 3 == 0 }
+
+# print(cubes)
+#------------------------------------------------------------------------------------------
+
+# ==========================================
+# Python Comprehensions — Dictionary Comprehension + if-else
+# ==========================================
+
+# Concept
+
+# if-only mein kuch items filter hote hain:
+
+# {i: i ** 2 for i in range(1, 6) if i % 2 == 0}
+
+# if-else mein har item ke liye value decide hoti hai.
+
+# Example:
+
+# numbers = {i: i ** 2 if i % 2 == 0 else i ** 3 for i in range(1, 6)}
+
+# print(numbers)
+
+# Output:
+
+# {1: 1, 2: 4, 3: 27, 4: 16, 5: 125}
+
+# Yahan:
+
+# Even → square
+# Odd → cube
+
+# Syntax
+
+# {key: value_if_true if condition else value_if_false for variable in iterable}
+
+#=======================================
+# QUESTION STARTED NOW
+#=======================================
+
+# Q1.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# If the key is even, store its square as the value.
+# If the key is odd, store its cube as the value.
+# Use dictionary comprehension with if-else.
+# Print the dictionary.
+
+# numbers = {i: i ** 2  if i % 2 == 0 else i ** 3 for i in range(1, 11)}
+
+# print(numbers)
+
+# Q2.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# If the key is greater than 5, store double the key as the value.
+# Otherwise, store 0 as the value.
+# Use dictionary comprehension with if-else.
+# Print the dictionary.
+
+# numbers = {i: i * 2 if i > 5 else 0 for i in range(1,11)}
+
+# print(numbers)
+
+
+# Q3.
+# Create a dictionary using numbers from 1 to 10 as keys.
+# If the key is divisible by 3, store "Yes" as the value.
+# Otherwise, store "No" as the value.
+# Use dictionary comprehension with if-else.
+# Print the dictionary.
+
+# numbers ={i: "Yes"  if i % 3 == 0  else "No" for i in range(1,11)}
+
+# print(numbers)
+#-----------------------------------------------------------------------------------
+
+# ==========================================
+# Python Comprehensions — Set Comprehension
+# ==========================================
+
+# Set Comprehension kya hota hai?
+
+# Tumhe Sets already aate hain, isliye sirf comprehension ka syntax samjho.
+
+# Normal loop:
+
+# numbers = set()
+
+# for i in range(1, 6):
+#     numbers.add(i * 2)
+
+# print(numbers)
+
+# Set Comprehension:
+
+# numbers = {i * 2 for i in range(1, 6)}
+
+# print(numbers)
+
+# Output:
+
+# {2, 4, 6, 8, 10}
+# Syntax
+# {expression for variable in iterable}
+
+# List Comprehension:
+
+# [i * 2 for i in range(1, 6)]
+
+# Dictionary Comprehension:
+
+# {i: i * 2 for i in range(1, 6)}
+
+# Set Comprehension:
+
+# {i * 2 for i in range(1, 6)}
+
+# Main difference: Set mein key:value nahi hota, sirf value/expression hota hai.
+
+# Aur yaad rakho: Set duplicate values ko automatically remove karta hai.
+
+#=======================================
+# QUESTION STARTED NOW
+#=======================================
+
+# Q1.
+# Create a set containing the squares of numbers
+# from 1 to 5.
+# Use set comprehension.
+# Print the set.
+
+# squares = {i ** 2 for i in range(1,6)}
+
+# print(squares)
+
+# Q2.
+# Create a set containing only even numbers
+# from 1 to 10.
+# Use set comprehension with if.
+# Print the set.
+
+# even  = {i for i in range(1, 11) if i % 2 == 0 }
+
+# print(even)
+
+# Q3.
+# Create a set containing the cubes of numbers
+# from 1 to 5.
+# Use set comprehension.
+
+# Print the set.
+
+cubes ={i** 3 for i in range(1, 6)}
+
+print(cubes)
