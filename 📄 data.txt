@@ -1,3 +1,0 @@
-Hello Vikash
-Python is easy
-I am learning File Handling
