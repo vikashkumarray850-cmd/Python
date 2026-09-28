@@ -44,7 +44,7 @@
 # print(numbers)
 # ----------------------------------------------------------------------------------------------------------
 
-# Q1. Create a list ["Apple", "Mango"] and add "Banana" at the end using append().
+# # Q1. Create a list ["Apple", "Mango"] and add "Banana" at the end using append().
 # fruits = ["Apple", "Mango"]
 # fruits.append("Banana")
 # print(fruits)
