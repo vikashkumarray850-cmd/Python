@@ -1,2 +1,1 @@
-text = ("Python", "SQL", "Excel", "Power BI")
-print(text.index("Excel"))
+names = ["Amit", "Rahul", "Priya", "Sneha", "Arjun"]

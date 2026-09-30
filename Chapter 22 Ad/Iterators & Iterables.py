@@ -197,5 +197,17 @@
 # Use a for loop to print each key one by one.
 # Then state whether the dictionary is an iterable or an iterator.
 
+# students = {
+#     "vikash" : 80,
+#     "Rahul" : 90,
+#     "Mangal" : 30
+# }
 
+# # for student in students:
+# #     print(student)
 
+# my_iterator = iter(students)
+
+# print(next(my_iterator))
+# print(next(my_iterator))
+# print(next(my_iterator))
