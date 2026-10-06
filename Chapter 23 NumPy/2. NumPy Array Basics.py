@@ -649,16 +649,16 @@
 # Each group should contain 2 rows and 3 prices.
 # Print the array.
 
-# import numpy as np
+import numpy as np
 
-# price = np.array([
-#     [
-#         [30,50,78],
-#         [67,89,89]
-#     ],
-#     [
-#         [69,90,67],
-#         [80,56,98]
-#     ]
-# ])
-# print(price)
+price = np.array([
+    [
+        [30,50,78],
+        [67,89,89]
+    ],
+    [
+        [69,90,67],
+        [80,56,98]
+    ]
+])
+print(price)

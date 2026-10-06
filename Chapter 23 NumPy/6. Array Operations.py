@@ -740,20 +740,20 @@
 # [5, 10, 15, 20, 25]
 # Check which elements are less than or equal to 15 using <=.
 
-# import numpy as np
-# numbers = np.array([5, 10, 15, 20, 25])
+import numpy as np
+numbers = np.array([5, 10, 15, 20, 25])
 
-# print(numbers <= 15)
+print(numbers <= 15)
 #----------------------------------
 
 # Q5. Create a NumPy array:
 # [10, 20, 30, 40, 50]
 # Check which element is equal to 30 using ==.
 
-# import numpy as np
-# numbers = np.array([10, 20, 30, 40,50])
+import numpy as np
+numbers = np.array([10, 20, 30, 40,50])
 
-# print(numbers == 30)
+print(numbers == 30)
 #-----------------------------------
 
 # Q6. Create a NumPy array:
@@ -764,4 +764,3 @@ import numpy as np
 numbers = np.array([10, 20, 30, 40])
 
 print(numbers != 300)
-
