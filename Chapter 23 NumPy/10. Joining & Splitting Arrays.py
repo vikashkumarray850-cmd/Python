@@ -1,10 +1,10 @@
 # ==============================
 # CODE NUMBERING BY:-
 
-# 12 TO 137 np.concatenate()
-# 141 TO 244 np.vstack()
-# 248 TO 313 np.hstack()
-# 676 TO 876 np.split()
+# 13 TO 143 np.concatenate()
+# 147 TO 296 np.vstack()
+# 300 TO 432 np.hstack()
+# 436 TO 587 np.split()
 # ==============================
 
 # 10: JOINING & SPLITTING ARRAYS
@@ -432,3 +432,156 @@
 # print(result)
 #_____________________________________________________________________________________________________
 
+#==============================
+# 4.  np.split()
+#==============================
+
+# np.split() kya karta hai?
+
+# np.split() ek NumPy array ko multiple parts mein divide karta hai.
+
+# Simple:
+
+# Join karna:
+# A + B → ek bada array
+
+# Split karna:
+# Ek bada array → A + B
+# 1D Array par np.split()
+# import numpy as np
+
+# numbers = np.array([10, 20, 30, 40, 50, 60])
+
+# result = np.split(numbers, 3)
+
+# print(result)
+
+# Output:
+
+# [array([10, 20]), array([30, 40]), array([50, 60])]
+
+# Yahan:
+
+# Original:
+# [10 20 30 40 50 60]
+
+# split into 3 parts:
+
+# [10 20]
+# [30 40]
+# [50 60]
+# Important rule
+
+# Agar hum likhte hain:
+
+# np.split(numbers, 3)
+
+# to array ko 3 equal parts mein divide karne ki koshish hoti hai.
+
+# Isliye total elements 3 se divisible hone chahiye.
+
+# Example:
+
+# 6 elements → 3 parts → 2 elements each ✅
+
+# 8 elements → 3 parts → equal division possible nahi ❌
+# 2D Array mein np.split()
+
+# Default axis=0 hota hai, yani rows ke basis par split:
+
+# import numpy as np
+
+# numbers = np.array([
+#     [10, 20],
+#     [30, 40],
+#     [50, 60],
+#     [70, 80]
+# ])
+
+# result = np.split(numbers, 2)
+
+# print(result)
+
+# Output:
+
+# [array([[10, 20],
+#         [30, 40]]),
+
+#  array([[50, 60],
+#         [70, 80]])]
+
+# Yani 4 rows ko 2 parts mein divide kiya:
+
+# Part 1:
+# [10 20]
+# [30 40]
+
+# Part 2:
+# [50 60]
+# [70 80]
+# axis=1 — columns ke basis par
+
+# Agar columns ko split karna ho:
+
+# result = np.split(numbers, 2, axis=1)
+
+# To columns divide honge.
+
+# Yaad rakhne ka simple rule
+# np.vstack()  → arrays ko upar-niche join
+# np.hstack()  → arrays ko left-right join
+
+# np.split()   → ek array ko parts mein divide
+
+# Ab 3 practice questions karo:
+
+# ==========================================
+# NumPy — np.split() Practice
+# ==========================================
+
+# Q1. Create a 1D NumPy array:
+# [10, 20, 30, 40, 50, 60]
+#
+# Split the array into 3 equal parts using np.split().
+# Print the result.
+
+# import numpy as np
+# number = np.array([10, 20, 30, 40, 50, 60])
+# result = np.split(number, 3) 
+# print(result)
+#--------------------------------------------
+
+# Q2. Create a 2D NumPy array:
+# [[10, 20],
+#  [30, 40],
+#  [50, 60],
+#  [70, 80]]
+#
+# Split the array into 2 equal parts based on rows.
+# Print the result.
+
+# import numpy as np
+# num = np.array([
+#     [10, 20],
+#     [30, 40],
+#     [50, 60],
+#     [70, 80]
+# ])
+# result =np.split(num,2)
+# print(result)
+#----------------------------------------
+
+# Q3. Create a 2D NumPy array:
+# [[100, 200, 300, 400],
+#  [500, 600, 700, 800]]
+#
+# Split the array into 2 equal parts based on columns.
+# Print the result.
+
+import numpy as np
+num = np.array([
+    [100, 200, 300, 400],
+    [500, 600, 700, 800]
+])
+result = np.split(num, 2, axis=1)
+print(result)
