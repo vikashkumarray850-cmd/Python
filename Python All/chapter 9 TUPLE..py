@@ -1,3 +1,32 @@
+# Chapter 9 – Tuples
+
+# Tuple ka use multiple fixed values store karne ke liye hota hai. Tuple immutable hota hai.
+
+# | Topic             | Kya kaam hai?                                |
+# | ----------------- | -------------------------------------------- |
+# | Tuple Creation    | Tuple banana                                 |
+# | Indexing          | Element access karna                         |
+# | Negative Indexing | End se element access karna                  |
+# | Slicing           | Specific elements nikalna                    |
+# | Packing           | Multiple values ko tuple mein rakhna         |
+# | Unpacking         | Tuple values ko separate variables mein lena |
+# | Immutability      | Existing elements modify nahi kar sakte      |
+# | `count()`         | Element count karna                          |
+# | `index()`         | Element ki position find karna               |
+
+# Example:
+
+# employee = ("Vikash", "IT", 35000)
+
+# name, department, salary = employee
+
+# print(name)
+# print(department)
+# print(salary)
+
+#====================================================================================================
+
+
 # 🐍 Tuples — Part 1: Basics
 
 # Q1. Create a tuple containing "Apple", "Mango", and "Banana" and print the tuple.

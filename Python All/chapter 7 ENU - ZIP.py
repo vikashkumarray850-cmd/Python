@@ -1,3 +1,32 @@
+# Chapter 7 – Enumerate & Zip
+
+# Inka use loops mein multiple values aur unke indexes ko efficiently handle karne ke liye hota hai.
+
+# | Topic                   | Kya kaam hai?                                         |
+# | ----------------------- | ----------------------------------------------------- |
+# | `enumerate()`           | List ke elements ke saath index deta hai              |
+# | `enumerate(start=)`     | Custom starting index set karta hai                   |
+# | `zip()`                 | Do ya zyada collections ke elements ko pair karta hai |
+# | Multiple Lists with zip | Multiple lists ko ek saath iterate karta hai          |
+# | `list(zip())`           | Zip result ko list mein convert karta hai             |
+# | Unpacking with zip      | Paired values ko separate variables mein lena         |
+# #---------
+# Example – enumerate():
+
+# names = ["Vikash", "Mohit", "Ravi"]
+
+# for index, name in enumerate(names):
+#     print(index, name)
+# #---------------
+
+# Example – zip():
+
+# names = ["Vikash", "Mohit", "Ravi"]
+# salary = [35000, 40000, 50000]
+
+# for name, sal in zip(names, salary):
+#     print(name, sal)
+
 # ==========================================
 # ENUMERATE() - PRACTICE QUESTIONS
 # ==========================================

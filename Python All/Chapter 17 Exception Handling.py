@@ -1,3 +1,37 @@
+# Chapter 17 – Exception Handling
+
+# Exception Handling ka use program mein unexpected errors handle karne ke liye hota hai
+
+# | Topic               | Kya kaam hai?                         |
+# | ------------------- | ------------------------------------- |
+# | Syntax Error        | Code ka syntax galat hona             |
+# | Runtime Error       | Execution ke time error aana          |
+# | Logical Error       | Code run hona lekin result galat aana |
+# | `try`               | Risky code execute karna              |
+# | `except`            | Error handle karna                    |
+# | Multiple except     | Different errors handle karna         |
+# | `else`              | Error na aane par execute hona        |
+# | `finally`           | Har situation mein execute hona       |
+# | `ValueError`        | Invalid value                         |
+# | `TypeError`         | Wrong data type operation             |
+# | `NameError`         | Undefined variable                    |
+# | `IndexError`        | Invalid index                         |
+# | `KeyError`          | Missing dictionary key                |
+# | `ZeroDivisionError` | Zero se divide karna                  |
+# | `FileNotFoundError` | File nahi milna                       |
+
+# Example:
+
+# try:
+#     num = int(input("Enter number: "))
+#     print(100 / num)
+
+# except ValueError:
+#     print("Invalid input")
+
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+
 # ==========================================
 # Python Exception Handling — Basic try-except
 # ==========================================

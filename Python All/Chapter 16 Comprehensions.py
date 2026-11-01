@@ -1,3 +1,25 @@
+# Chapter 16 – Comprehensions
+
+# Comprehension ka use short syntax mein new collections create karne ke liye hota ha
+
+# | Topic                    | Kya kaam hai?                              |
+# | ------------------------ | ------------------------------------------ |
+# | List Comprehension       | New list create karna                      |
+# | Condition                | Specific elements filter karna             |
+# | `if-else`                | Condition ke according values create karna |
+# | Nested Comprehension     | Nested collections process karna           |
+# | Set Comprehension        | New set create karna                       |
+# | Dictionary Comprehension | New dictionary create karna                |
+
+# Example:
+
+# numbers = [1, 2, 3, 4, 5]
+
+# squares = [x**2 for x in numbers]
+
+# print(squares)
+#===============================================================================================================================
+
 # List Comprehension kya hota hai?
 
 # List comprehension ka simple meaning:

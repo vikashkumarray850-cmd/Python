@@ -1,3 +1,30 @@
+
+# Chapter 4 – Conditional Statements
+
+# Conditions ka use decision making ke liye hota hai.
+
+# | Topic            | Kya kaam hai?                                 |
+# | ---------------- | --------------------------------------------- |
+# | `if`             | Condition True hone par code execute karna    |
+# | `if-else`        | True aur False dono situations handle karna   |
+# | `if-elif-else`   | Multiple conditions check karna               |
+# | Nested if        | Ek condition ke andar doosri condition lagana |
+# | Ternary Operator | Ek line mein condition likhna                 |
+# | `and`            | Multiple conditions ko combine karna          |
+# | `or`             | Alternative conditions check karna            |
+#------------
+
+# Data Analyst Use: Sales ko High, Medium aur Low categories mein divide karna
+
+# marks = 75
+
+# if marks >= 90:
+#     print("A Grade")
+# elif marks >= 60:
+#     print("B Grade")
+# else:
+#     print("C Grade")
+
 # ==========================
 # IF Statement - Practice
 # ==========================

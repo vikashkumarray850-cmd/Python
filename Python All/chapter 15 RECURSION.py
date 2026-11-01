@@ -1,3 +1,28 @@
+# Chapter 15 – Recursion
+
+# Recursion mein function khud ko call karta hai
+
+# | Topic              | Kya kaam hai?                       |
+# | ------------------ | ----------------------------------- |
+# | Recursive Function | Function khud ko call karta hai     |
+# | Base Case          | Recursion ko stop karta hai         |
+# | Recursive Case     | Next recursive call karta hai       |
+# | Countdown          | Reverse counting karna              |
+# | Sum                | Numbers ka total nikalna            |
+# | Factorial          | Number ka factorial calculate karna |
+# | Power              | Number ki power calculate karna     |
+# | String Reverse     | String reverse karna                |
+
+# Example:
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+
+#     return n * factorial(n - 1)
+
+# print(factorial(5))
+#========================================================
 
 # Recursion ka simple meaning hai:
 

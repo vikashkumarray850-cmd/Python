@@ -1,3 +1,33 @@
+
+# Chapter 18 – File Handling
+
+# File Handling ka use external files se data read, write aur update karne ke liye hota hai.
+
+# | Topic          | Kya kaam hai?                  |
+# | -------------- | ------------------------------ |
+# | `open()`       | File open karna                |
+# | `r`            | File read karna                |
+# | `w`            | File write/overwrite karna     |
+# | `a`            | File mein data append karna    |
+# | `read()`       | Pura content read karna        |
+# | `readline()`   | Ek line read karna             |
+# | `readlines()`  | All lines list mein read karna |
+# | `write()`      | Text write karna               |
+# | `writelines()` | Multiple lines write karna     |
+# | `with open()`  | File automatically close karna |
+# | CSV Reader     | CSV file read karna            |
+# | CSV Writer     | CSV file write karna           |
+
+# Example:
+
+# import csv
+
+# with open("employees.csv", "r") as file:
+#     data = csv.reader(file)
+
+#     for row in data:
+#         print(row)
+
 # ==========================================
 # File Handling — Read
 # ==========================================

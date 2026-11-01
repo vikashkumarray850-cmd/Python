@@ -1,3 +1,38 @@
+# Chapter 20 – Packages
+
+# Package ka use multiple related Python modules ko ek organized structure mein rakhne ke liye hota hai.
+
+# | Topic               | Kya kaam hai?                                         |
+# | ------------------- | ----------------------------------------------------- |
+# | Package             | Multiple modules ko organize karna                    |
+# | Package Creation    | Apna package banana                                   |
+# | `__init__.py`       | Package initialization aur package-level setup        |
+# | Import Package      | Package import karna                                  |
+# | Import Module       | Package ke andar se module import karna               |
+# | Import Function     | Module se specific function import karna              |
+# | Subpackage          | Package ke andar another package banana               |
+# | Package Reusability | Organized code ko different projects mein reuse karna |
+
+# Example – Folder Structure:
+
+# MyPackage/
+#     __init__.py
+#     calculation.py
+#     employee.py
+
+# main.py
+
+# calculation.py
+
+# def add(a, b):
+#     return a + b
+
+# main.py
+
+# from MyPackage.calculation import add
+
+# print(add(10, 20))
+#==============================================================================================================================================
 # .
 
 # 📦 Package kya hota hai?

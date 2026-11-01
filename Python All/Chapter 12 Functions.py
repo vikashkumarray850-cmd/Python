@@ -1,3 +1,41 @@
+# Chapter 12 – Functions (Part 1 + Part 2 Combined)
+
+# Function ka use reusable code create karne ke liye hota hai. Ek function ko baar-baar call kar sakte hain.
+
+# | Topic                  | Kya kaam hai?                              |
+# | ---------------------- | ------------------------------------------ |
+# | `def`                  | Function define karna                      |
+# | Function Calling       | Function execute karna                     |
+# | Parameters             | Function ke input variables                |
+# | Arguments              | Function ko di gayi actual values          |
+# | Multiple Parameters    | Multiple inputs lena                       |
+# | `return`               | Result wapas dena                          |
+# | Default Arguments      | Default values set karna                   |
+# | Keyword Arguments      | Parameter name se values pass karna        |
+# | `*args`                | Multiple positional arguments lena         |
+# | `**kwargs`             | Multiple keyword arguments lena            |
+# | `*args` with Loop      | Multiple arguments par loop chalana        |
+# | `**kwargs` with Loop   | Key-value pairs par loop chalana           |
+# | Conditions with kwargs | Keyword values ke according decisions lena |
+# | Local Variables        | Function ke andar accessible variables     |
+# | Global Variables       | Global scope ke variables                  |
+# | Nested Functions       | Function ke andar function banana          |
+# | Function Calling       | Ek function se doosra function call karna  |
+# #-------------
+
+# Example:
+
+# def employee(name, salary, bonus=5000):
+#     total = salary + bonus
+#     return total
+
+# result = employee("Vikash", 35000)
+
+# print(result)
+
+#=====================================================================================================================================
+
+
 # # function
 # def sum_of_two_nums(a, b):
 #     # print(a + b)

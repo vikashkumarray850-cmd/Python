@@ -1,3 +1,36 @@
+# Chapter 10 – Sets
+
+# Set ka use unique values store karne ke liye hota hai. Ismein duplicate values nahi hoti.
+
+# | Topic                    | Kya kaam hai?                                    |
+# | ------------------------ | ------------------------------------------------ |
+# | Set Creation             | Set banana                                       |
+# | Duplicate Removal        | Duplicate values remove karna                    |
+# | `add()`                  | Single element add karna                         |
+# | `update()`               | Multiple elements add karna                      |
+# | `remove()`               | Element delete karna; absent hone par error      |
+# | `discard()`              | Element delete karna; absent hone par error nahi |
+# | `pop()`                  | Arbitrary element remove karna                   |
+# | `clear()`                | Set empty karna                                  |
+# | `union()`                | Dono sets ke unique elements lena                |
+# | `intersection()`         | Common elements nikalna                          |
+# | `difference()`           | First set ke different elements nikalna          |
+# | `symmetric_difference()` | Dono sets ke non-common elements nikalna         |
+# | `issubset()`             | Subset check karna                               |
+# | `issuperset()`           | Superset check karna                             |
+# | `isdisjoint()`           | Common elements nahi hain, ye check karna        |
+# #----------------
+# Example:
+
+# a = {10, 20, 30, 40}
+# b = {30, 40, 50, 60}
+
+# print(a.union(b))
+# print(a.intersection(b))
+#=========================================================================================
+
+
+
 # 🐍 SETS — BASIC PRACTICE
 # 📌 Topic: Set Creation, Duplicates, in, Empty Set & Indexing
 

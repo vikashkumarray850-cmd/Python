@@ -1,6 +1,10 @@
-Product,Price,Quantity
-Apple,50,3
-Banana,20,4
-Mango,40,2
-Coconut,50,2
-Orange,10,3
+ProductID,ProductName,Category,Price,Stock
+301,Laptop,Electronics,45000,12
+302,Mouse,Accessories,600,40
+303,Keyboard,Accessories,1200,25
+304,Monitor,Electronics,16000,18
+305,Headphones,Accessories,2500,30
+306,Printer,Electronics,11000,8
+307,Webcam,Accessories,1800,20
+308,Tablet,Electronics,22000,15
+308,Tablet,Electronics,22000,15

@@ -1,3 +1,33 @@
+# Chapter 13 – Scope
+
+# Scope ka matlab hai variable program ke kis part mein accessible hai.
+
+# | Topic           | Kya kaam hai?                                               |
+# | --------------- | ----------------------------------------------------------- |
+# | Local Scope     | Function ke andar variable access karna                     |
+# | Global Scope    | Program ke different parts mein variable access karna       |
+# | Enclosing Scope | Outer function ka variable inner function mein access karna |
+# | Built-in Scope  | Python ke built-in names access karna                       |
+# | `global`        | Function ke andar global variable modify karna              |
+# | `nonlocal`      | Nested function mein enclosing variable modify karna        |
+# | LEGB Rule       | Variable search karne ka Python rule                        |
+
+# Example:
+
+# x = 100
+
+# def show():
+#     x = 50
+#     print(x)
+
+# show()
+# print(x)
+
+# Output:
+
+# 50
+# 100
+
 # ==========================================
 # Python Functions — Local & Global Scope
 # ==========================================

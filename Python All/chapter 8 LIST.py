@@ -1,4 +1,41 @@
+# Chapter 8 – Lists
+
+# List ka use multiple values ko ek collection mein store karne ke liye hota hai
+
+# | Topic             | Kya kaam hai?                           |
+# | ----------------- | --------------------------------------- |
+# | List Creation     | List banana                             |
+# | Indexing          | Specific element access karna           |
+# | Negative Indexing | End se element access karna             |
+# | Slicing           | Multiple elements access karna          |
+# | Modification      | Existing element update karna           |
+# | Nested List       | List ke andar list rakhna               |
+# | `append()`        | End mein element add karna              |
+# | `extend()`        | Multiple elements add karna             |
+# | `insert()`        | Specific position par element add karna |
+# | `remove()`        | Specific element delete karna           |
+# | `pop()`           | Element remove karke return karna       |
+# | `clear()`         | Puri list empty karna                   |
+# | `index()`         | Element ki position find karna          |
+# | `count()`         | Element kitni baar aaya count karna     |
+# | `sort()`          | Elements sort karna                     |
+# | `reverse()`       | List reverse karna                      |
+# | `copy()`          | List ki copy banana                     |
+# \
+
+# Example:
+
+# salary = [25000, 35000, 50000]
+
+# salary.append(60000)
+
+# print(salary)
+# print(max(salary))
+# print(min(salary))
+#==================================================================================================================
+
 # 📝 Practice — Lists Basics
+
 
 # Q1. Create a list containing "Apple", "Mango", and "Banana" and print the list.
 # fruits = ["Apple", "Mango", "Banana"]
@@ -44,10 +81,8 @@
 # print(numbers)
 # ----------------------------------------------------------------------------------------------------------
 
-# # Q1. Create a list ["Apple", "Mango"] and add "Banana" at the end using append().
-# fruits = ["Apple", "Mango"]
-# fruits.append("Banana")
-# print(fruits)
+# 
+
 
 # Q2. Create a list ["Apple", "Banana"] and add "Mango" at index 1 using insert().
 # fruits = ["Apple", "Mango"]

@@ -1,3 +1,44 @@
+# Chapter 11 – Dictionaries
+
+# Dictionary ka use data ko Key-Value pairs mein store karne ke liye hota hai.
+
+# | Topic               | Kya kaam hai?                    |
+# | ------------------- | -------------------------------- |
+# | Dictionary Creation | Dictionary banana                |
+# | Accessing Values    | Key se value access karna        |
+# | Adding Keys         | New key-value add karna          |
+# | Updating Values     | Existing value update karna      |
+# | Removing Elements   | Key-value delete karna           |
+# | Nested Dictionary   | Dictionary ke andar dictionary   |
+# | Dictionary Looping  | Keys aur values par loop chalana |
+# | `keys()`            | All keys return karna            |
+# | `values()`          | All values return karna          |
+# | `items()`           | Key-value pairs return karna     |
+# | `get()`             | Safely value access karna        |
+# | `update()`          | Dictionary update karna          |
+# | `pop()`             | Specific key remove karna        |
+# | `popitem()`         | Last inserted pair remove karna  |
+# | `clear()`           | Dictionary empty karna           |
+# | `copy()`            | Dictionary ki copy banana        |
+
+# #---------------------
+
+# Example:
+
+# employee = {
+#     "name": "Vikash",
+#     "department": "IT",
+#     "salary": 35000
+# }
+
+# print(employee.get("salary"))
+
+# employee["salary"] = 40000
+
+# print(employee)
+#============================================================================================================================
+
+
 #🐍 DICTIONARIES — PART 1: BASICS
 
 # Q1. DICTIONARY CREATION

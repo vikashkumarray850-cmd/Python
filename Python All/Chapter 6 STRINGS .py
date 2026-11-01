@@ -1,3 +1,29 @@
+# Chapter 6 – Strings
+
+# String ka use text data store aur manipulate karne ke liye hota hai.
+
+# | Topic             | Kya kaam hai?                                     |
+# | ----------------- | ------------------------------------------------- |
+# | String Creation   | Text create karna                                 |
+# | Single Quotes     | Single quotes mein text likhna                    |
+# | Double Quotes     | Double quotes mein text likhna                    |
+# | Triple Quotes     | Multiline text likhna                             |
+# | Indexing          | Specific character access karna                   |
+# | Negative Indexing | Last se character access karna                    |
+# | Slicing           | String ka specific part nikalna                   |
+# | Concatenation     | Do strings ko join karna                          |
+# | Repetition        | String ko repeat karna                            |
+# | Immutability      | Original string ko directly modify nahi kar sakte |
+# | `len()`           | String ki length nikalna                          |
+# | `in`              | String mein particular text check karna           |
+# | `not in`          | Particular text present nahi hai, ye check karna  |
+
+# name = "Vikash Kumar"
+
+# print(name[0])
+# print(name[-1])
+# print(name[0:6])
+# print(len(name))
 
 #----------------------------------------------------------------------------
 

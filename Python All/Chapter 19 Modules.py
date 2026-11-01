@@ -1,3 +1,25 @@
+# Chapter 19 – Modules
+
+# Module ek Python file hoti hai jisme reusable code, functions aur variables hote hain.
+
+# | Topic              | Kya kaam hai?                             |
+# | ------------------ | ----------------------------------------- |
+# | Module             | Code ko separate file mein organize karna |
+# | `import`           | Module import karna                       |
+# | `from import`      | Specific function import karna            |
+# | Built-in Modules   | Python ke ready-made modules use karna    |
+# | `math`             | Mathematical calculations                 |
+# | `random`           | Random values generate karna              |
+# | `datetime`         | Date aur time handle karna                |
+# | `os`               | Operating system operations               |
+# | Custom Module      | Apna module banana                        |
+# | Module Reusability | Existing code reuse karna                 |
+
+# import math
+
+# print(math.sqrt(64))
+# print(math.factorial(5))
+
 # ==========================================
 # Modules & Packages — import Basic
 # ==========================================

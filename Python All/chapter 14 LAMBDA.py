@@ -1,3 +1,26 @@
+# Chapter 14 – Lambda Functions
+
+# Lambda ka use short aur anonymous functions create karne ke liye hota ha
+
+
+# | Topic                  | Kya kaam hai?                                         |
+# | ---------------------- | ----------------------------------------------------- |
+# | Lambda Basic           | Short function banana                                 |
+# | Single Argument        | Ek input lena                                         |
+# | Multiple Arguments     | Multiple inputs lena                                  |
+# | Lambda with Conditions | Condition-based output                                |
+# | Lambda with if-else    | Conditional result return karna                       |
+# | `map()`                | Har element par operation apply karna                 |
+# | `filter()`             | Condition ke according elements select karna          |
+# | `reduce()`             | Multiple values ko combine karke single result banana |
+
+# Example:
+
+# numbers = [10, 20, 30, 40]
+
+# result = list(map(lambda x: x * 2, numbers))
+
+# print(result)
 # ==========================================
 # Python Lambda Functions — Basic Practice
 # ==========================================

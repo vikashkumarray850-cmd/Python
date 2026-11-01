@@ -1,3 +1,26 @@
+# Chapter 5 – Loops
+
+# Loops ka use repeated operations perform karne ke liye hota hai.
+
+# | Topic         | Kya kaam hai?                                  |
+# | ------------- | ---------------------------------------------- |
+# | `for`         | Collection ke elements par iterate karna       |
+# | `while`       | Condition True hone tak loop chalana           |
+# | `range()`     | Number sequence generate karna                 |
+# | `break`       | Loop ko stop karna                             |
+# | `continue`    | Current iteration skip karna                   |
+# | `pass`        | Empty code block maintain karna                |
+# | Nested Loop   | Loop ke andar loop chalana                     |
+# | `enumerate()` | Index aur value ek saath lena                  |
+# | `zip()`       | Multiple collections ke elements ko pair karna |
+# #----------
+
+# employees = ["Vikash", "Mohit", "Ravi"]
+
+# for name in employees:
+#     print(name)
+
+#================================================================================================
 # Chapter 5: Loops
 
 # 1. for loop
